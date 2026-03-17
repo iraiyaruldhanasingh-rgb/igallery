@@ -1,0 +1,35 @@
+body{
+    text-align:center;
+    font-family:Arial;
+    background-color:#f0f0f0;
+}
+
+h2{
+    margin-top:30px;
+    color:#0c0404;
+}
+
+.gallery-box{
+    margin-top:50px;
+}
+
+img{
+    width:310px;
+    height:210px;
+    border-radius:20px;
+    margin:0 30px;
+}
+
+button{
+    padding:10px 20px;
+    font-size:16px;
+    border:none;
+    background-color:#8fc0f5;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:#083769;
+}
