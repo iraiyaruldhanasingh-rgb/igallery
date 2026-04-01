@@ -27,6 +27,7 @@ Publish the website in the given URL.
 ## PROGRAM:
 ```
 
+<!DOCTYPE html>
 <html>
 <head>
 <title>Image Gallery</title>
@@ -67,6 +68,13 @@ button{
 button:hover{
     background-color:#0d3216;
 }
+
+/* Footer text */
+.credit{
+    margin-top:60px;
+    font-size:16px;
+    color:#555;
+}
 </style>
 
 </head>
@@ -78,7 +86,7 @@ button:hover{
 <div class="gallery-box">
     <button onclick="prevImage()">Previous</button>
 
-    <img id="galleryImage" src="images/img1.jpg">
+    <img id="galleryImage">
 
     <button onclick="nextImage()">Next</button>
 </div>
@@ -113,50 +121,18 @@ function prevImage(){
     }
     showImage();
 }
+
+// Load first image on page start
+showImage();
 </script>
+
+<p class="credit">Created by Iraiyarul.D.R</p>
 
 </body>
 </html>
-
-css
-
-body{
-    text-align:center;
-    font-family:Arial;
-    background-color:#f0f0f0;
-}
-
-h2{
-    margin-top:30px;
-    color:#0c0404;
-}
-
-.gallery-box{
-    margin-top:50px;
-}
-
-img{
-    width:310px;
-    height:210px;
-    border-radius:20px;
-    margin:0 30px;
-}
-
-button{
-    padding:10px 20px;
-    font-size:16px;
-    border:none;
-    background-color:#8fc0f5;
-    color:white;
-    border-radius:5px;
-    cursor:pointer;
-}
-
-button:hover{
-    background-color:#083769;
-}
 ```
 ## OUTPUT:
-![alt text](image.png)
+<img width="1880" height="1074" alt="image" src="https://github.com/user-attachments/assets/1c8fe58a-5b7a-4fbc-95c6-a9b77386ce55" />
+
 ## RESULT:
 The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
